@@ -2,7 +2,6 @@ package demo;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -19,8 +18,8 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-public class test {
-    private Logger logger = LogManager.getLogger(test.class);
+public class Test {
+    private Logger logger = LogManager.getLogger(Test.class);
     private WebDriver wd;
 
 
@@ -125,13 +124,13 @@ public class test {
         return new Actions(wd);
     }
 
-    @Test
+    @org.junit.Test
     public void filterAndChooseCourse() {
         logger.info("Старт теста");
         // browserOptions.add("--start-fullscreen");
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
-        wd = WebDriverFactory.createNewDriver(webDriverName.CHROME, browserOptions);
+        wd = WebDriverFactory.createNewDriver(WebDriverName.CHROME, browserOptions);
         wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         wd.get(url);
         Assert.assertEquals("Онлайн‑курсы для профессионалов, дистанционное обучение современным профессиям",

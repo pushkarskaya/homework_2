@@ -1,8 +1,8 @@
 package demo.steps;
 
+import demo.Test;
 import demo.WebDriverFactory;
-import demo.test;
-import demo.webDriverName;
+import demo.WebDriverName;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,11 +12,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyStepDefinition2 {
+public class SearchCourseByKeyword {
+    private final static By catalogOfCourse = By.cssSelector("a[title='Каталог курсов']");
+    private final static By h1 = By.xpath("//h1[@class='course-header2__title']");
     private WebDriver wd;
 
     @Given("Find course {string}")
@@ -24,15 +25,12 @@ public class MyStepDefinition2 {
         List<String> browserOptions = new ArrayList();
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
-        wd = WebDriverFactory.createNewDriver(webDriverName.CHROME, browserOptions);
-        Logger logger = LogManager.getLogger(test.class);
+        wd = WebDriverFactory.createNewDriver(WebDriverName.CHROME, browserOptions);
+        Logger logger = LogManager.getLogger(Test.class);
         String url = "https://otus.ru";
         wd.get(url);
-        By catalogOfCourse = By.cssSelector("a[title='Каталог курсов']");
         wd.findElement(catalogOfCourse).click();
-
         //Отбор всех курсов на вкладке Программирование,в названии которых есть keyword
-
         List<String> arrayOfCourse = new ArrayList<String>();
         int countOfCourses = wd.findElements(By.xpath("//div[contains(concat(' ',@class,' '),' lessons__new-item-title ')]")).size();
         logger.info("Количество курсов на странице всего: " + countOfCourses);
@@ -58,8 +56,7 @@ public class MyStepDefinition2 {
     @Then("Finded course is opened {string}")
     public void findedCourseIsOpened(String keyword) {
         WebDriverWait wait = new WebDriverWait(wd, 10);
-        By h1 = By.xpath("//div[@class='course-header2__title']");
-        Logger logger1 = LogManager.getLogger(test.class);
+        Logger logger1 = LogManager.getLogger(Test.class);
         logger1.info(wd.findElement(h1).getText());
         if (wd.findElements(h1).size() != 0) {
             System.out.println("Открыта страница с описанием курса");

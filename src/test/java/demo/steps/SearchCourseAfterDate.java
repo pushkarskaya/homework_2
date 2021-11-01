@@ -1,8 +1,8 @@
 package demo.steps;
 
 import demo.WebDriverFactory;
-import demo.test;
-import demo.webDriverName;
+import demo.Test;
+import demo.WebDriverName;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,21 +21,21 @@ import java.util.List;
 import java.util.Locale;
 import java.util.stream.Collectors;
 
-public class MyStepDefinitions4 {
-    Logger logger = LogManager.getLogger(test.class);
+public class SearchCourseAfterDate {
+    Logger logger = LogManager.getLogger(Test.class);
     List<Date> dd = new ArrayList<>();
     private WebDriver wd;
+    private final static By catalogOfCourse = By.cssSelector("a[title='Каталог курсов']");
 
     @Given("We have afterdate {string}")
     public void weHaveAfterdate(String date) {
         List<String> browserOptions = new ArrayList();
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
-        wd = WebDriverFactory.createNewDriver(webDriverName.CHROME, browserOptions);
-        Logger logger = LogManager.getLogger(test.class);
+        wd = WebDriverFactory.createNewDriver(WebDriverName.CHROME, browserOptions);
+        Logger logger = LogManager.getLogger(Test.class);
         String url = "https://otus.ru";
         wd.get(url);
-        By catalogOfCourse = By.cssSelector("a[title='Каталог курсов']");
         wd.findElement(catalogOfCourse).click();
     }
 
@@ -87,9 +87,9 @@ public class MyStepDefinitions4 {
             List<WebElement> elements = wd.findElements(By.xpath("//div[contains(@class,'lessons__new-item-start') and contains(normalize-space(), '" + ruDate + "')]//ancestor::div[contains(@class,'lessons__new-item-container')]//descendant::div[contains(@class,'lessons__new-item-title')]")).stream().toList();
             elements.stream().forEach(element -> {
                 logger.info(element.getText() + "   дата начала курса " + ruDate);
-                wd.quit();
+
             });
         }
-
+        wd.quit();
     }
 }

@@ -3105,3 +3105,580 @@
 2021-10-17 00:21:42,408 INFO d.test [main] Цена самого дешевого курса 3000 ₽
 2021-10-17 00:21:42,456 INFO d.test [main] Самый дорогой курс Java для начинающих программистов 15 000 ₽
 2021-10-17 00:21:42,490 INFO d.test [main] Самый дешевый курс DevOps Marathon 3000 ₽
+2021-11-01 13:16:02,350 INFO d.test [main] [3000 ₽, 8000 ₽, 8000 ₽, 10 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽]
+2021-11-01 13:16:02,353 INFO d.test [main] Цена самого дорогого курса 15 000 ₽
+2021-11-01 13:16:02,354 INFO d.test [main] Цена самого дешевого курса 3000 ₽
+2021-11-01 13:16:02,412 INFO d.test [main] Самый дорогой курс Java для начинающих программистов 15 000 ₽
+2021-11-01 13:16:02,491 INFO d.test [main] Самый дешевый курс DevOps Marathon 3000 ₽
+2021-11-01 13:16:44,273 INFO d.test [main] Количество курсов на странице всего: 66
+2021-11-01 13:16:44,654 INFO d.test [main] C# ASP.NET Core разработчик
+2021-11-01 13:16:45,272 INFO d.test [main] C# Developer. Professional
+2021-11-01 13:16:45,289 INFO d.test [main] C# Developer. Basic
+2021-11-01 13:16:45,307 INFO d.test [main] Специализация C#
+2021-11-01 13:16:45,663 INFO d.test [main] Найдено курсов, содержащих в названии текст C#: 4
+2021-11-01 13:18:24,341 INFO d.test [main] 26 октября 2021
+2021-11-01 13:18:24,344 INFO d.test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 13:18:24,388 INFO d.test [main] 28 октября 2021
+2021-11-01 13:18:24,388 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:18:24,482 INFO d.test [main] 25 октября 2021
+2021-11-01 13:18:24,482 INFO d.test [main] Mon Oct 25 00:00:00 MSK 2021
+2021-11-01 13:18:24,510 INFO d.test [main] 26 октября 2021
+2021-11-01 13:18:24,510 INFO d.test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 13:18:24,538 INFO d.test [main] 28 октября 2021
+2021-11-01 13:18:24,538 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:18:24,568 INFO d.test [main] 28 октября 2021
+2021-11-01 13:18:24,569 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:18:24,662 INFO d.test [main] 28 октября 2021
+2021-11-01 13:18:24,663 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:18:24,707 INFO d.test [main] 29 октября 2021
+2021-11-01 13:18:24,707 INFO d.test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 13:18:24,739 INFO d.test [main] 29 октября 2021
+2021-11-01 13:18:24,739 INFO d.test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 13:18:24,767 INFO d.test [main] 16 ноября 2021
+2021-11-01 13:18:24,768 INFO d.test [main] Tue Nov 16 00:00:00 MSK 2021
+2021-11-01 13:18:24,793 INFO d.test [main] 19 ноября 2021
+2021-11-01 13:18:24,794 INFO d.test [main] Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 13:18:24,837 INFO d.test [main] 24 ноября 2021
+2021-11-01 13:18:24,839 INFO d.test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 13:18:24,871 INFO d.test [main] 24 ноября 2021
+2021-11-01 13:18:24,871 INFO d.test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 13:18:24,906 INFO d.test [main] 17 ноября 2021
+2021-11-01 13:18:24,906 INFO d.test [main] Wed Nov 17 00:00:00 MSK 2021
+2021-11-01 13:18:24,942 INFO d.test [main] 29 ноября 2021
+2021-11-01 13:18:24,943 INFO d.test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 13:18:24,970 INFO d.test [main] 29 ноября 2021
+2021-11-01 13:18:24,970 INFO d.test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 13:18:25,000 INFO d.test [main] 30 ноября 2021
+2021-11-01 13:18:25,000 INFO d.test [main] Tue Nov 30 00:00:00 MSK 2021
+2021-11-01 13:18:25,028 INFO d.test [main] 29 ноября 2021
+2021-11-01 13:18:25,028 INFO d.test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 13:18:25,070 INFO d.test [main] 26 ноября 2021
+2021-11-01 13:18:25,070 INFO d.test [main] Fri Nov 26 00:00:00 MSK 2021
+2021-11-01 13:18:25,100 INFO d.test [main] 13 декабря 2021
+2021-11-01 13:18:25,100 INFO d.test [main] Mon Dec 13 00:00:00 MSK 2021
+2021-11-01 13:18:25,138 INFO d.test [main] 22 декабря 2021
+2021-11-01 13:18:25,138 INFO d.test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 13:18:25,180 INFO d.test [main] 22 декабря 2021
+2021-11-01 13:18:25,180 INFO d.test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 13:18:25,206 INFO d.test [main] 24 декабря 2021
+2021-11-01 13:18:25,207 INFO d.test [main] Fri Dec 24 00:00:00 MSK 2021
+2021-11-01 13:18:25,250 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:18:25,250 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:18:25,277 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:18:25,277 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:18:25,303 INFO d.test [main] 28 декабря 2021
+2021-11-01 13:18:25,303 INFO d.test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 13:18:25,327 INFO d.test [main] 28 декабря 2021
+2021-11-01 13:18:25,327 INFO d.test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 13:18:25,353 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:18:25,354 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:18:25,386 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:18:25,386 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:18:25,413 INFO d.test [main] 23 декабря 2021
+2021-11-01 13:18:25,414 INFO d.test [main] Thu Dec 23 00:00:00 MSK 2021
+2021-11-01 13:18:25,439 INFO d.test [main] 26 декабря 2021
+2021-11-01 13:18:25,440 INFO d.test [main] Sun Dec 26 00:00:00 MSK 2021
+2021-11-01 13:18:25,466 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:18:25,466 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:18:25,492 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:18:25,492 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:18:25,518 INFO d.test [main] 28 декабря 2021
+2021-11-01 13:18:25,519 INFO d.test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 13:18:25,550 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:18:25,551 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:18:25,577 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:18:25,577 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:18:25,600 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:18:25,601 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:18:25,695 INFO d.test [main] 28 января 2022 года
+2021-11-01 13:18:25,696 INFO d.test [main] Fri Jan 28 00:00:00 MSK 2022
+2021-11-01 13:18:25,720 INFO d.test [main] 31 января 2022 года
+2021-11-01 13:18:25,720 INFO d.test [main] Mon Jan 31 00:00:00 MSK 2022
+2021-11-01 13:18:25,966 INFO d.test [main] Дата, от которой ищем бОльшие даты Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 13:18:25,970 INFO d.test [main] Смотрим курсы, которые начинаются позже указанной даты 19 ноября 2021 года
+2021-11-01 13:18:26,160 INFO d.test [main] Python Developer. Basic   дата начала курса 24 ноября
+2021-11-01 13:20:22,855 INFO d.test [main] 26 октября 2021
+2021-11-01 13:20:22,857 INFO d.test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 13:20:22,888 INFO d.test [main] 28 октября 2021
+2021-11-01 13:20:22,888 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:20:22,921 INFO d.test [main] 25 октября 2021
+2021-11-01 13:20:22,922 INFO d.test [main] Mon Oct 25 00:00:00 MSK 2021
+2021-11-01 13:20:22,959 INFO d.test [main] 26 октября 2021
+2021-11-01 13:20:22,960 INFO d.test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 13:20:22,988 INFO d.test [main] 28 октября 2021
+2021-11-01 13:20:22,988 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:20:23,017 INFO d.test [main] 28 октября 2021
+2021-11-01 13:20:23,017 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:20:23,043 INFO d.test [main] 28 октября 2021
+2021-11-01 13:20:23,044 INFO d.test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 13:20:23,091 INFO d.test [main] 29 октября 2021
+2021-11-01 13:20:23,091 INFO d.test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 13:20:23,120 INFO d.test [main] 29 октября 2021
+2021-11-01 13:20:23,121 INFO d.test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 13:20:23,151 INFO d.test [main] 16 ноября 2021
+2021-11-01 13:20:23,151 INFO d.test [main] Tue Nov 16 00:00:00 MSK 2021
+2021-11-01 13:20:23,271 INFO d.test [main] 19 ноября 2021
+2021-11-01 13:20:23,272 INFO d.test [main] Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 13:20:23,299 INFO d.test [main] 24 ноября 2021
+2021-11-01 13:20:23,301 INFO d.test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 13:20:23,327 INFO d.test [main] 24 ноября 2021
+2021-11-01 13:20:23,327 INFO d.test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 13:20:23,367 INFO d.test [main] 17 ноября 2021
+2021-11-01 13:20:23,367 INFO d.test [main] Wed Nov 17 00:00:00 MSK 2021
+2021-11-01 13:20:23,390 INFO d.test [main] 29 ноября 2021
+2021-11-01 13:20:23,391 INFO d.test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 13:20:23,417 INFO d.test [main] 29 ноября 2021
+2021-11-01 13:20:23,418 INFO d.test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 13:20:23,440 INFO d.test [main] 30 ноября 2021
+2021-11-01 13:20:23,441 INFO d.test [main] Tue Nov 30 00:00:00 MSK 2021
+2021-11-01 13:20:23,486 INFO d.test [main] 29 ноября 2021
+2021-11-01 13:20:23,486 INFO d.test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 13:20:23,514 INFO d.test [main] 26 ноября 2021
+2021-11-01 13:20:23,515 INFO d.test [main] Fri Nov 26 00:00:00 MSK 2021
+2021-11-01 13:20:23,539 INFO d.test [main] 13 декабря 2021
+2021-11-01 13:20:23,539 INFO d.test [main] Mon Dec 13 00:00:00 MSK 2021
+2021-11-01 13:20:23,567 INFO d.test [main] 22 декабря 2021
+2021-11-01 13:20:23,567 INFO d.test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 13:20:23,605 INFO d.test [main] 22 декабря 2021
+2021-11-01 13:20:23,606 INFO d.test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 13:20:23,630 INFO d.test [main] 24 декабря 2021
+2021-11-01 13:20:23,631 INFO d.test [main] Fri Dec 24 00:00:00 MSK 2021
+2021-11-01 13:20:23,668 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:20:23,669 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:20:23,702 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:20:23,703 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:20:23,727 INFO d.test [main] 28 декабря 2021
+2021-11-01 13:20:23,727 INFO d.test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 13:20:23,749 INFO d.test [main] 28 декабря 2021
+2021-11-01 13:20:23,750 INFO d.test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 13:20:23,775 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:20:23,776 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:20:23,814 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:20:23,815 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:20:23,840 INFO d.test [main] 23 декабря 2021
+2021-11-01 13:20:23,840 INFO d.test [main] Thu Dec 23 00:00:00 MSK 2021
+2021-11-01 13:20:23,863 INFO d.test [main] 26 декабря 2021
+2021-11-01 13:20:23,863 INFO d.test [main] Sun Dec 26 00:00:00 MSK 2021
+2021-11-01 13:20:23,886 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:20:23,886 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:20:23,921 INFO d.test [main] 27 декабря 2021
+2021-11-01 13:20:23,921 INFO d.test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 13:20:23,947 INFO d.test [main] 28 декабря 2021
+2021-11-01 13:20:23,948 INFO d.test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 13:20:23,981 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:20:23,981 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:20:24,008 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:20:24,009 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:20:24,031 INFO d.test [main] 29 декабря 2021
+2021-11-01 13:20:24,033 INFO d.test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 13:20:24,124 INFO d.test [main] 28 января 2022 года
+2021-11-01 13:20:24,125 INFO d.test [main] Fri Jan 28 00:00:00 MSK 2022
+2021-11-01 13:20:24,149 INFO d.test [main] 31 января 2022 года
+2021-11-01 13:20:24,149 INFO d.test [main] Mon Jan 31 00:00:00 MSK 2022
+2021-11-01 13:20:24,402 INFO d.test [main] Дата, от которой ищем бОльшие даты Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 13:20:24,407 INFO d.test [main] Смотрим курсы, которые начинаются позже указанной даты 19 ноября 2021 года
+2021-11-01 13:20:24,593 INFO d.test [main] Python Developer. Basic   дата начала курса 24 ноября
+2021-11-01 16:07:25,802 INFO d.Test [main] 26 октября 2021
+2021-11-01 16:07:25,805 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 16:07:25,835 INFO d.Test [main] 28 октября 2021
+2021-11-01 16:07:25,835 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 16:07:25,874 INFO d.Test [main] 25 октября 2021
+2021-11-01 16:07:25,874 INFO d.Test [main] Mon Oct 25 00:00:00 MSK 2021
+2021-11-01 16:07:25,908 INFO d.Test [main] 26 октября 2021
+2021-11-01 16:07:25,908 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 16:07:25,938 INFO d.Test [main] 28 октября 2021
+2021-11-01 16:07:25,938 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 16:07:25,964 INFO d.Test [main] 28 октября 2021
+2021-11-01 16:07:25,964 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 16:07:26,102 INFO d.Test [main] 28 октября 2021
+2021-11-01 16:07:26,103 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 16:07:26,131 INFO d.Test [main] 29 октября 2021
+2021-11-01 16:07:26,132 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 16:07:26,163 INFO d.Test [main] 29 октября 2021
+2021-11-01 16:07:26,163 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 16:07:26,194 INFO d.Test [main] 16 ноября 2021
+2021-11-01 16:07:26,195 INFO d.Test [main] Tue Nov 16 00:00:00 MSK 2021
+2021-11-01 16:07:26,243 INFO d.Test [main] 19 ноября 2021
+2021-11-01 16:07:26,244 INFO d.Test [main] Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 16:07:26,273 INFO d.Test [main] 24 ноября 2021
+2021-11-01 16:07:26,274 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 16:07:26,303 INFO d.Test [main] 24 ноября 2021
+2021-11-01 16:07:26,303 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 16:07:26,344 INFO d.Test [main] 17 ноября 2021
+2021-11-01 16:07:26,345 INFO d.Test [main] Wed Nov 17 00:00:00 MSK 2021
+2021-11-01 16:07:26,372 INFO d.Test [main] 29 ноября 2021
+2021-11-01 16:07:26,373 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 16:07:26,418 INFO d.Test [main] 29 ноября 2021
+2021-11-01 16:07:26,418 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 16:07:26,452 INFO d.Test [main] 30 ноября 2021
+2021-11-01 16:07:26,452 INFO d.Test [main] Tue Nov 30 00:00:00 MSK 2021
+2021-11-01 16:07:26,479 INFO d.Test [main] 29 ноября 2021
+2021-11-01 16:07:26,480 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 16:07:26,512 INFO d.Test [main] 26 ноября 2021
+2021-11-01 16:07:26,513 INFO d.Test [main] Fri Nov 26 00:00:00 MSK 2021
+2021-11-01 16:07:26,537 INFO d.Test [main] 13 декабря 2021
+2021-11-01 16:07:26,537 INFO d.Test [main] Mon Dec 13 00:00:00 MSK 2021
+2021-11-01 16:07:26,610 INFO d.Test [main] 22 декабря 2021
+2021-11-01 16:07:26,611 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 16:07:26,639 INFO d.Test [main] 22 декабря 2021
+2021-11-01 16:07:26,639 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 16:07:26,674 INFO d.Test [main] 24 декабря 2021
+2021-11-01 16:07:26,675 INFO d.Test [main] Fri Dec 24 00:00:00 MSK 2021
+2021-11-01 16:07:26,714 INFO d.Test [main] 27 декабря 2021
+2021-11-01 16:07:26,715 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 16:07:26,740 INFO d.Test [main] 27 декабря 2021
+2021-11-01 16:07:26,741 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 16:07:26,764 INFO d.Test [main] 28 декабря 2021
+2021-11-01 16:07:26,764 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 16:07:26,788 INFO d.Test [main] 28 декабря 2021
+2021-11-01 16:07:26,788 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 16:07:26,814 INFO d.Test [main] 29 декабря 2021
+2021-11-01 16:07:26,815 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 16:07:26,844 INFO d.Test [main] 29 декабря 2021
+2021-11-01 16:07:26,844 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 16:07:26,870 INFO d.Test [main] 23 декабря 2021
+2021-11-01 16:07:26,871 INFO d.Test [main] Thu Dec 23 00:00:00 MSK 2021
+2021-11-01 16:07:26,899 INFO d.Test [main] 26 декабря 2021
+2021-11-01 16:07:26,900 INFO d.Test [main] Sun Dec 26 00:00:00 MSK 2021
+2021-11-01 16:07:26,930 INFO d.Test [main] 27 декабря 2021
+2021-11-01 16:07:26,931 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 16:07:26,968 INFO d.Test [main] 27 декабря 2021
+2021-11-01 16:07:26,968 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 16:07:26,993 INFO d.Test [main] 28 декабря 2021
+2021-11-01 16:07:26,994 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 16:07:27,024 INFO d.Test [main] 29 декабря 2021
+2021-11-01 16:07:27,024 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 16:07:27,052 INFO d.Test [main] 29 декабря 2021
+2021-11-01 16:07:27,052 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 16:07:27,077 INFO d.Test [main] 29 декабря 2021
+2021-11-01 16:07:27,078 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 16:07:27,170 INFO d.Test [main] 28 января 2022 года
+2021-11-01 16:07:27,171 INFO d.Test [main] Fri Jan 28 00:00:00 MSK 2022
+2021-11-01 16:07:27,194 INFO d.Test [main] 31 января 2022 года
+2021-11-01 16:07:27,195 INFO d.Test [main] Mon Jan 31 00:00:00 MSK 2022
+2021-11-01 16:07:27,444 INFO d.Test [main] Дата, от которой ищем бОльшие даты Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 16:07:27,448 INFO d.Test [main] Смотрим курсы, которые начинаются позже указанной даты 19 ноября 2021 года
+2021-11-01 16:07:27,615 INFO d.Test [main] Python Developer. Basic   дата начала курса 24 ноября
+2021-11-01 16:28:46,310 INFO d.Test [main] Количество курсов на странице всего: 66
+2021-11-01 16:28:46,751 INFO d.Test [main] C# ASP.NET Core разработчик
+2021-11-01 16:28:47,179 INFO d.Test [main] C# Developer. Professional
+2021-11-01 16:28:47,193 INFO d.Test [main] C# Developer. Basic
+2021-11-01 16:28:47,207 INFO d.Test [main] Специализация C#
+2021-11-01 16:28:47,545 INFO d.Test [main] Найдено курсов, содержащих в названии текст C#: 4
+2021-11-01 16:34:24,364 INFO d.Test [main] Количество курсов на странице всего: 66
+2021-11-01 16:34:25,004 INFO d.Test [main] C# ASP.NET Core разработчик
+2021-11-01 16:34:25,483 INFO d.Test [main] C# Developer. Professional
+2021-11-01 16:34:25,498 INFO d.Test [main] C# Developer. Basic
+2021-11-01 16:34:25,512 INFO d.Test [main] Специализация C#
+2021-11-01 16:34:25,883 INFO d.Test [main] Найдено курсов, содержащих в названии текст C#: 4
+2021-11-01 16:42:29,717 INFO d.Test [main] Количество курсов на странице всего: 66
+2021-11-01 16:42:30,156 INFO d.Test [main] C# ASP.NET Core разработчик
+2021-11-01 16:42:30,709 INFO d.Test [main] C# Developer. Professional
+2021-11-01 16:42:30,722 INFO d.Test [main] C# Developer. Basic
+2021-11-01 16:42:30,737 INFO d.Test [main] Специализация C#
+2021-11-01 16:42:31,058 INFO d.Test [main] Найдено курсов, содержащих в названии текст C#: 4
+2021-11-01 16:42:36,058 INFO d.Test [main] C# ASP.NET Core разработчик
+2021-11-01 16:50:27,589 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 16:56:50,886 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 17:27:25,069 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 17:29:53,325 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 17:29:53,814 INFO d.Test [main] Python Developer. Professional
+2021-11-01 17:31:30,390 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 17:31:30,644 INFO d.Test [main] Открыта страница с информацией по курсу Python Developer. Professional
+2021-11-01 17:33:34,816 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 17:33:35,036 INFO d.Test [main] Открыта страница с информацией по курсу Python Developer. Professional
+2021-11-01 17:36:03,420 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 17:36:03,685 INFO d.Test [main] Открыта страница с информацией по курсу Python Developer. Professional
+2021-11-01 17:36:53,456 INFO d.Test [main] Найден курс с датой начала 30 ноября Python Developer. Professional
+2021-11-01 17:36:54,040 INFO d.Test [main] Открыта страница с информацией по курсу Python Developer. Professional
+2021-11-01 17:44:48,502 INFO d.Test [main] 26 октября 2021
+2021-11-01 17:44:48,505 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 17:44:48,652 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:44:48,653 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:44:48,678 INFO d.Test [main] 25 октября 2021
+2021-11-01 17:44:48,687 INFO d.Test [main] Mon Oct 25 00:00:00 MSK 2021
+2021-11-01 17:44:48,745 INFO d.Test [main] 26 октября 2021
+2021-11-01 17:44:48,745 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 17:44:48,773 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:44:48,780 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:44:48,808 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:44:48,820 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:44:48,861 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:44:48,874 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:44:48,902 INFO d.Test [main] 29 октября 2021
+2021-11-01 17:44:48,911 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 17:44:48,936 INFO d.Test [main] 29 октября 2021
+2021-11-01 17:44:48,948 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 17:44:48,981 INFO d.Test [main] 16 ноября 2021
+2021-11-01 17:44:48,982 INFO d.Test [main] Tue Nov 16 00:00:00 MSK 2021
+2021-11-01 17:44:49,006 INFO d.Test [main] 19 ноября 2021
+2021-11-01 17:44:49,017 INFO d.Test [main] Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 17:44:49,047 INFO d.Test [main] 24 ноября 2021
+2021-11-01 17:44:49,055 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 17:44:49,278 INFO d.Test [main] 24 ноября 2021
+2021-11-01 17:44:49,278 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 17:44:49,313 INFO d.Test [main] 17 ноября 2021
+2021-11-01 17:44:49,314 INFO d.Test [main] Wed Nov 17 00:00:00 MSK 2021
+2021-11-01 17:44:49,338 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:44:49,339 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:44:49,369 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:44:49,369 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:44:49,393 INFO d.Test [main] 30 ноября 2021
+2021-11-01 17:44:49,393 INFO d.Test [main] Tue Nov 30 00:00:00 MSK 2021
+2021-11-01 17:44:49,445 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:44:49,445 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:44:49,485 INFO d.Test [main] 26 ноября 2021
+2021-11-01 17:44:49,486 INFO d.Test [main] Fri Nov 26 00:00:00 MSK 2021
+2021-11-01 17:44:49,513 INFO d.Test [main] 13 декабря 2021
+2021-11-01 17:44:49,513 INFO d.Test [main] Mon Dec 13 00:00:00 MSK 2021
+2021-11-01 17:44:49,546 INFO d.Test [main] 22 декабря 2021
+2021-11-01 17:44:49,546 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 17:44:49,580 INFO d.Test [main] 22 декабря 2021
+2021-11-01 17:44:49,580 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 17:44:49,606 INFO d.Test [main] 24 декабря 2021
+2021-11-01 17:44:49,606 INFO d.Test [main] Fri Dec 24 00:00:00 MSK 2021
+2021-11-01 17:44:49,641 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:44:49,642 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:44:49,664 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:44:49,664 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:44:49,735 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:44:49,735 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:44:49,760 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:44:49,760 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:44:49,809 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:44:49,809 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:44:49,841 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:44:49,841 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:44:49,865 INFO d.Test [main] 23 декабря 2021
+2021-11-01 17:44:49,867 INFO d.Test [main] Thu Dec 23 00:00:00 MSK 2021
+2021-11-01 17:44:49,890 INFO d.Test [main] 26 декабря 2021
+2021-11-01 17:44:49,891 INFO d.Test [main] Sun Dec 26 00:00:00 MSK 2021
+2021-11-01 17:44:49,920 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:44:49,921 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:44:49,944 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:44:49,945 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:44:49,974 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:44:49,975 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:44:50,008 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:44:50,009 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:44:50,036 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:44:50,036 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:44:50,059 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:44:50,061 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:44:50,144 INFO d.Test [main] 28 января 2022 года
+2021-11-01 17:44:50,145 INFO d.Test [main] Fri Jan 28 00:00:00 MSK 2022
+2021-11-01 17:44:50,170 INFO d.Test [main] 31 января 2022 года
+2021-11-01 17:44:50,171 INFO d.Test [main] Mon Jan 31 00:00:00 MSK 2022
+2021-11-01 17:44:50,414 INFO d.Test [main] Дата, от которой ищем бОльшие даты Wed Dec 01 00:00:00 MSK 2021
+2021-11-01 17:44:50,420 INFO d.Test [main] Смотрим курсы, которые начинаются позже указанной даты 1 декабря 2021 года
+2021-11-01 17:44:50,598 INFO d.Test [main] Highload Architect   дата начала курса 13 декабря
+2021-11-01 17:49:36,397 INFO d.Test [main] 26 октября 2021
+2021-11-01 17:49:36,400 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 17:49:36,429 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:49:36,430 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:49:36,456 INFO d.Test [main] 25 октября 2021
+2021-11-01 17:49:36,456 INFO d.Test [main] Mon Oct 25 00:00:00 MSK 2021
+2021-11-01 17:49:36,499 INFO d.Test [main] 26 октября 2021
+2021-11-01 17:49:36,499 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 17:49:36,527 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:49:36,527 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:49:36,555 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:49:36,555 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:49:36,580 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:49:36,581 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:49:36,641 INFO d.Test [main] 29 октября 2021
+2021-11-01 17:49:36,641 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 17:49:36,671 INFO d.Test [main] 29 октября 2021
+2021-11-01 17:49:36,671 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 17:49:36,711 INFO d.Test [main] 16 ноября 2021
+2021-11-01 17:49:36,712 INFO d.Test [main] Tue Nov 16 00:00:00 MSK 2021
+2021-11-01 17:49:36,738 INFO d.Test [main] 19 ноября 2021
+2021-11-01 17:49:36,738 INFO d.Test [main] Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 17:49:36,766 INFO d.Test [main] 24 ноября 2021
+2021-11-01 17:49:36,768 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 17:49:36,796 INFO d.Test [main] 24 ноября 2021
+2021-11-01 17:49:36,796 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 17:49:36,835 INFO d.Test [main] 17 ноября 2021
+2021-11-01 17:49:36,835 INFO d.Test [main] Wed Nov 17 00:00:00 MSK 2021
+2021-11-01 17:49:36,866 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:49:36,867 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:49:36,896 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:49:36,896 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:49:36,923 INFO d.Test [main] 30 ноября 2021
+2021-11-01 17:49:36,924 INFO d.Test [main] Tue Nov 30 00:00:00 MSK 2021
+2021-11-01 17:49:36,984 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:49:36,984 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:49:37,014 INFO d.Test [main] 26 ноября 2021
+2021-11-01 17:49:37,014 INFO d.Test [main] Fri Nov 26 00:00:00 MSK 2021
+2021-11-01 17:49:37,063 INFO d.Test [main] 13 декабря 2021
+2021-11-01 17:49:37,063 INFO d.Test [main] Mon Dec 13 00:00:00 MSK 2021
+2021-11-01 17:49:37,115 INFO d.Test [main] 22 декабря 2021
+2021-11-01 17:49:37,115 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 17:49:37,213 INFO d.Test [main] 22 декабря 2021
+2021-11-01 17:49:37,214 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 17:49:37,237 INFO d.Test [main] 24 декабря 2021
+2021-11-01 17:49:37,237 INFO d.Test [main] Fri Dec 24 00:00:00 MSK 2021
+2021-11-01 17:49:37,287 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:49:37,288 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:49:37,312 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:49:37,313 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:49:37,340 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:49:37,340 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:49:37,365 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:49:37,365 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:49:37,391 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:49:37,392 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:49:37,423 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:49:37,424 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:49:37,447 INFO d.Test [main] 23 декабря 2021
+2021-11-01 17:49:37,447 INFO d.Test [main] Thu Dec 23 00:00:00 MSK 2021
+2021-11-01 17:49:37,472 INFO d.Test [main] 26 декабря 2021
+2021-11-01 17:49:37,473 INFO d.Test [main] Sun Dec 26 00:00:00 MSK 2021
+2021-11-01 17:49:37,499 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:49:37,499 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:49:37,523 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:49:37,524 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:49:37,547 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:49:37,548 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:49:37,578 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:49:37,578 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:49:37,607 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:49:37,608 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:49:37,631 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:49:37,633 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:49:37,722 INFO d.Test [main] 28 января 2022 года
+2021-11-01 17:49:37,723 INFO d.Test [main] Fri Jan 28 00:00:00 MSK 2022
+2021-11-01 17:49:37,747 INFO d.Test [main] 31 января 2022 года
+2021-11-01 17:49:37,748 INFO d.Test [main] Mon Jan 31 00:00:00 MSK 2022
+2021-11-01 17:49:37,997 INFO d.Test [main] Дата, от которой ищем бОльшие даты Wed Dec 01 00:00:00 MSK 2021
+2021-11-01 17:49:38,001 INFO d.Test [main] Смотрим курсы, которые начинаются позже указанной даты 1 декабря 2021 года
+2021-11-01 17:49:38,181 INFO d.Test [main] Highload Architect   дата начала курса 13 декабря
+2021-11-01 17:49:38,225 INFO d.Test [main] Kotlin Backend Developer   дата начала курса 22 декабря
+2021-11-01 17:49:38,239 INFO d.Test [main] JavaScript Developer. Basic   дата начала курса 22 декабря
+2021-11-01 17:49:38,268 INFO d.Test [main] React.js Developer   дата начала курса 24 декабря
+2021-11-01 17:49:38,305 INFO d.Test [main] C++ Developer. Professional   дата начала курса 27 декабря
+2021-11-01 17:49:38,318 INFO d.Test [main] JavaScript Developer. Professional   дата начала курса 27 декабря
+2021-11-01 17:49:38,331 INFO d.Test [main] Android Developer. Professional   дата начала курса 27 декабря
+2021-11-01 17:49:38,342 INFO d.Test [main] Kotlin Developer. Basic   дата начала курса 27 декабря
+2021-11-01 17:49:38,367 INFO d.Test [main] Node.js Developer   дата начала курса 28 декабря
+2021-11-01 17:49:38,382 INFO d.Test [main] Java Developer. Professional   дата начала курса 28 декабря
+2021-11-01 17:49:38,395 INFO d.Test [main] Android Developer. Basic   дата начала курса 28 декабря
+2021-11-01 17:49:38,428 INFO d.Test [main] Software Architect   дата начала курса 29 декабря
+2021-11-01 17:49:38,442 INFO d.Test [main] Groovy Developer   дата начала курса 29 декабря
+2021-11-01 17:49:38,455 INFO d.Test [main] Java Developer. Basic   дата начала курса 29 декабря
+2021-11-01 17:49:38,471 INFO d.Test [main] Специализация Java-разработчик   дата начала курса 29 декабря
+2021-11-01 17:49:38,486 INFO d.Test [main] HTML/CSS   дата начала курса 29 декабря
+2021-11-01 17:49:38,511 INFO d.Test [main] Microservice Architecture   дата начала курса 23 декабря
+2021-11-01 17:49:38,534 INFO d.Test [main] Unity Game Developer. Basic   дата начала курса 26 декабря
+2021-11-01 17:49:38,554 INFO d.Test [main] Symfony Framework   дата начала курса 28 января
+2021-11-01 17:49:38,575 INFO d.Test [main] PHP Developer. Professional   дата начала курса 31 января
+2021-11-01 17:50:53,421 INFO d.Test [main] 26 октября 2021
+2021-11-01 17:50:53,424 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 17:50:53,454 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:50:53,454 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:50:53,480 INFO d.Test [main] 25 октября 2021
+2021-11-01 17:50:53,481 INFO d.Test [main] Mon Oct 25 00:00:00 MSK 2021
+2021-11-01 17:50:53,508 INFO d.Test [main] 26 октября 2021
+2021-11-01 17:50:53,508 INFO d.Test [main] Tue Oct 26 00:00:00 MSK 2021
+2021-11-01 17:50:53,537 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:50:53,537 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:50:53,562 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:50:53,563 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:50:53,591 INFO d.Test [main] 28 октября 2021
+2021-11-01 17:50:53,591 INFO d.Test [main] Thu Oct 28 00:00:00 MSK 2021
+2021-11-01 17:50:53,616 INFO d.Test [main] 29 октября 2021
+2021-11-01 17:50:53,616 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 17:50:53,648 INFO d.Test [main] 29 октября 2021
+2021-11-01 17:50:53,649 INFO d.Test [main] Fri Oct 29 00:00:00 MSK 2021
+2021-11-01 17:50:53,679 INFO d.Test [main] 16 ноября 2021
+2021-11-01 17:50:53,680 INFO d.Test [main] Tue Nov 16 00:00:00 MSK 2021
+2021-11-01 17:50:53,704 INFO d.Test [main] 19 ноября 2021
+2021-11-01 17:50:53,704 INFO d.Test [main] Fri Nov 19 00:00:00 MSK 2021
+2021-11-01 17:50:53,731 INFO d.Test [main] 24 ноября 2021
+2021-11-01 17:50:53,733 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 17:50:53,761 INFO d.Test [main] 24 ноября 2021
+2021-11-01 17:50:53,762 INFO d.Test [main] Wed Nov 24 00:00:00 MSK 2021
+2021-11-01 17:50:53,791 INFO d.Test [main] 17 ноября 2021
+2021-11-01 17:50:53,791 INFO d.Test [main] Wed Nov 17 00:00:00 MSK 2021
+2021-11-01 17:50:53,814 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:50:53,816 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:50:53,842 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:50:53,843 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:50:53,868 INFO d.Test [main] 30 ноября 2021
+2021-11-01 17:50:53,868 INFO d.Test [main] Tue Nov 30 00:00:00 MSK 2021
+2021-11-01 17:50:53,894 INFO d.Test [main] 29 ноября 2021
+2021-11-01 17:50:53,895 INFO d.Test [main] Mon Nov 29 00:00:00 MSK 2021
+2021-11-01 17:50:53,926 INFO d.Test [main] 26 ноября 2021
+2021-11-01 17:50:53,926 INFO d.Test [main] Fri Nov 26 00:00:00 MSK 2021
+2021-11-01 17:50:53,952 INFO d.Test [main] 13 декабря 2021
+2021-11-01 17:50:53,953 INFO d.Test [main] Mon Dec 13 00:00:00 MSK 2021
+2021-11-01 17:50:53,977 INFO d.Test [main] 22 декабря 2021
+2021-11-01 17:50:53,977 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 17:50:54,007 INFO d.Test [main] 22 декабря 2021
+2021-11-01 17:50:54,008 INFO d.Test [main] Wed Dec 22 00:00:00 MSK 2021
+2021-11-01 17:50:54,033 INFO d.Test [main] 24 декабря 2021
+2021-11-01 17:50:54,033 INFO d.Test [main] Fri Dec 24 00:00:00 MSK 2021
+2021-11-01 17:50:54,074 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:50:54,074 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:50:54,098 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:50:54,098 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:50:54,123 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:50:54,123 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:50:54,147 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:50:54,147 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:50:54,173 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:50:54,174 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:50:54,203 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:50:54,203 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:50:54,230 INFO d.Test [main] 23 декабря 2021
+2021-11-01 17:50:54,230 INFO d.Test [main] Thu Dec 23 00:00:00 MSK 2021
+2021-11-01 17:50:54,255 INFO d.Test [main] 26 декабря 2021
+2021-11-01 17:50:54,255 INFO d.Test [main] Sun Dec 26 00:00:00 MSK 2021
+2021-11-01 17:50:54,280 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:50:54,281 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:50:54,325 INFO d.Test [main] 27 декабря 2021
+2021-11-01 17:50:54,325 INFO d.Test [main] Mon Dec 27 00:00:00 MSK 2021
+2021-11-01 17:50:54,352 INFO d.Test [main] 28 декабря 2021
+2021-11-01 17:50:54,352 INFO d.Test [main] Tue Dec 28 00:00:00 MSK 2021
+2021-11-01 17:50:54,384 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:50:54,384 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:50:54,410 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:50:54,411 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:50:54,433 INFO d.Test [main] 29 декабря 2021
+2021-11-01 17:50:54,435 INFO d.Test [main] Wed Dec 29 00:00:00 MSK 2021
+2021-11-01 17:50:54,524 INFO d.Test [main] 28 января 2022 года
+2021-11-01 17:50:54,524 INFO d.Test [main] Fri Jan 28 00:00:00 MSK 2022
+2021-11-01 17:50:54,548 INFO d.Test [main] 31 января 2022 года
+2021-11-01 17:50:54,548 INFO d.Test [main] Mon Jan 31 00:00:00 MSK 2022
+2021-11-01 17:50:54,794 INFO d.Test [main] Дата, от которой ищем бОльшие даты Wed Dec 01 00:00:00 MSK 2021
+2021-11-01 17:50:54,797 INFO d.Test [main] Смотрим курсы, которые начинаются позже указанной даты 1 декабря 2021 года
+2021-11-01 17:50:54,956 INFO d.Test [main] Highload Architect   дата начала курса 13 декабря
+2021-11-01 17:50:54,996 INFO d.Test [main] Kotlin Backend Developer   дата начала курса 22 декабря
+2021-11-01 17:50:55,009 INFO d.Test [main] JavaScript Developer. Basic   дата начала курса 22 декабря
+2021-11-01 17:50:55,034 INFO d.Test [main] React.js Developer   дата начала курса 24 декабря
+2021-11-01 17:50:55,072 INFO d.Test [main] C++ Developer. Professional   дата начала курса 27 декабря
+2021-11-01 17:50:55,085 INFO d.Test [main] JavaScript Developer. Professional   дата начала курса 27 декабря
+2021-11-01 17:50:55,099 INFO d.Test [main] Android Developer. Professional   дата начала курса 27 декабря
+2021-11-01 17:50:55,113 INFO d.Test [main] Kotlin Developer. Basic   дата начала курса 27 декабря
+2021-11-01 17:50:55,149 INFO d.Test [main] Node.js Developer   дата начала курса 28 декабря
+2021-11-01 17:50:55,165 INFO d.Test [main] Java Developer. Professional   дата начала курса 28 декабря
+2021-11-01 17:50:55,178 INFO d.Test [main] Android Developer. Basic   дата начала курса 28 декабря
+2021-11-01 17:50:55,204 INFO d.Test [main] Software Architect   дата начала курса 29 декабря
+2021-11-01 17:50:55,216 INFO d.Test [main] Groovy Developer   дата начала курса 29 декабря
+2021-11-01 17:50:55,228 INFO d.Test [main] Java Developer. Basic   дата начала курса 29 декабря
+2021-11-01 17:50:55,255 INFO d.Test [main] Специализация Java-разработчик   дата начала курса 29 декабря
+2021-11-01 17:50:55,270 INFO d.Test [main] HTML/CSS   дата начала курса 29 декабря
+2021-11-01 17:50:55,295 INFO d.Test [main] Microservice Architecture   дата начала курса 23 декабря
+2021-11-01 17:50:55,316 INFO d.Test [main] Unity Game Developer. Basic   дата начала курса 26 декабря
+2021-11-01 17:50:55,336 INFO d.Test [main] Symfony Framework   дата начала курса 28 января
+2021-11-01 17:50:55,358 INFO d.Test [main] PHP Developer. Professional   дата начала курса 31 января
+2021-11-01 17:55:31,557 INFO d.Test [main] [3000 ₽, 8000 ₽, 8000 ₽, 10 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽]
+2021-11-01 17:55:31,560 INFO d.Test [main] Цена самого дорогого курса 15 000 ₽
+2021-11-01 17:55:31,561 INFO d.Test [main] Цена самого дешевого курса 3000 ₽
+2021-11-01 17:55:31,775 INFO d.Test [main] Самый дорогой курс Java для начинающих программистов 15 000 ₽
+2021-11-01 17:55:31,808 INFO d.Test [main] Самый дешевый курс DevOps Marathon 3000 ₽
+2021-11-01 17:57:34,163 INFO d.Test [main] [3000 ₽, 8000 ₽, 8000 ₽, 10 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽, 15 000 ₽]
+2021-11-01 17:57:34,166 INFO d.Test [main] Цена самого дорогого курса 15 000 ₽
+2021-11-01 17:57:34,167 INFO d.Test [main] Цена самого дешевого курса 3000 ₽
+2021-11-01 17:57:34,381 INFO d.Test [main] Самый дорогой курс Java для начинающих программистов 15 000 ₽
+2021-11-01 17:57:34,412 INFO d.Test [main] Самый дешевый курс DevOps Marathon 3000 ₽

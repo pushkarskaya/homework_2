@@ -1,8 +1,8 @@
 package demo.steps;
 
 import demo.WebDriverFactory;
-import demo.test;
-import demo.webDriverName;
+import demo.Test;
+import demo.WebDriverName;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -17,22 +17,21 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyStepDefinition5 {
-    Logger logger = LogManager.getLogger(test.class);
+public class SearchExpensiveCourse {
+    Logger logger = LogManager.getLogger(Test.class);
     private WebDriver wd;
     private String maxPrice;
     private String minPrice;
-
+    private final static  By catalogOfCourse = By.xpath("//p[contains(text(),'Курсы')]");
     @Given("View list of courses")
     public void viewListOfCourses() {
         List<String> browserOptions = new ArrayList();
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
-        wd = WebDriverFactory.createNewDriver(webDriverName.CHROME, browserOptions);
-        Logger logger = LogManager.getLogger(test.class);
+        wd = WebDriverFactory.createNewDriver(WebDriverName.CHROME, browserOptions);
+        Logger logger = LogManager.getLogger(Test.class);
         String url = "https://otus.ru";
         wd.get(url);
-        By catalogOfCourse = By.xpath("//p[contains(text(),'Курсы')]");
         wd.findElement(catalogOfCourse).click();
         By trainingCourses = By.xpath("//a[@class='header2-menu__dropdown-link header2-menu__dropdown-link_no-wrap' and @title='Подготовительные курсы']");
         Actions action = new Actions(wd);
@@ -49,7 +48,7 @@ public class MyStepDefinition5 {
     public void searchTheMostExpensiveCourse() {
 
         By priceCourse = By.xpath("//div[@class='lessons__new-item-price']");
-        Logger logger = LogManager.getLogger(test.class);
+        Logger logger = LogManager.getLogger(Test.class);
         List<WebElement> priceList = wd.findElements(priceCourse).stream().toList();
         List<String> price = priceList.stream().map(element -> element.getText()).sorted((a, b) -> {
             int valueA = Integer.valueOf(a.replaceAll("\\s", "").replaceAll("₽", ""));

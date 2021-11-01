@@ -1,18 +1,17 @@
 package demo.steps;
 
 import demo.WebDriverFactory;
-import demo.webDriverName;
+import demo.WebDriverName;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class MyStepDefinitions {
+public class OpenOtusHomePageInChrome {
     private WebDriver wd;
 
     @Given("We have browser {string}")
@@ -20,7 +19,7 @@ public class MyStepDefinitions {
         List<String> browserOptions = new ArrayList();
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
-        wd = WebDriverFactory.createNewDriver(webDriverName.valueOf(browser), browserOptions);
+        wd = WebDriverFactory.createNewDriver(WebDriverName.valueOf(browser), browserOptions);
     }
 
     @When("User open page url {string}")
@@ -31,10 +30,8 @@ public class MyStepDefinitions {
     @Then("Otus homepage is opened")
     public void otusHomepageIsOpened() {
         Assert.assertEquals("Онлайн‑курсы для профессионалов, дистанционное обучение современным профессиям",
-                wd.getTitle());
+        wd.getTitle());
         wd.quit();
-
     }
-
 
 }

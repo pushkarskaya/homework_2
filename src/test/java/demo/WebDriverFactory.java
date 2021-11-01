@@ -13,7 +13,7 @@ import java.util.List;
 
 public class WebDriverFactory {
 
-    public static WebDriver createNewDriver(webDriverName type, List<String> options) {
+    public static WebDriver createNewDriver(WebDriverName type, List<String> options) {
         switch (type) {
             case CHROME:
                 WebDriverManager.chromedriver().setup();

@@ -1,4 +1,4 @@
-Feature:Find cours by keyword
+Feature:Find course by keyword
 
   Scenario: Find course
   Given Find course "C#"

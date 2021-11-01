@@ -1,6 +1,6 @@
 package demo;
 
-public enum webDriverName {
+public enum WebDriverName {
     CHROME,
     FIREFOX,
     OPERA
