@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +20,11 @@ public class OpenOtusHomePageInChrome {
         List<String> browserOptions = new ArrayList();
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
+        try {
+            WebDriverName.valueOf(browser);
+        } catch (RuntimeException e) {
+            System.out.println("Недопустимый тип браузера "+ browser);
+        }
         wd = WebDriverFactory.createNewDriver(WebDriverName.valueOf(browser), browserOptions);
     }
 
@@ -30,7 +36,7 @@ public class OpenOtusHomePageInChrome {
     @Then("Otus homepage is opened")
     public void otusHomepageIsOpened() {
         Assert.assertEquals("Онлайн‑курсы для профессионалов, дистанционное обучение современным профессиям",
-        wd.getTitle());
+                wd.getTitle());
         wd.quit();
     }
 
