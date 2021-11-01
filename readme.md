@@ -1,9 +1,10 @@
 Запускать
-1 Demo.feature
+1 openOtus.feature
 Реализовать выбор фабрики через фичу ("Я открываю браузер Chrome)
-2 findcourse.feature
+2 searceCourseByKeyword.feature
 Поиск указанного курса (название курса задается в фиче) и его выбора (в случае если несколько, то выбирается случайный)
-3 searchcoursebydate.feature, searchcourseafterdate.feature
+3 searchCourseByDate.feature, SearchCourseAfterDate.feature
 Поиск курсов, стартующих в указанную дату или позже указанной даты и вывод информации о них в консоль (название, дата старта)
-4 expensivecourse.feature
-Перейти в раздел Курсы > Подготовительные курсы, выбрать самый дорогой и самый дешевый курс при помощи filter и вывод информации о нем в консоль.
+4 searchExpensiveCourse.feature
+Перейти в раздел Курсы > Подготовительные курсы, выбрать самый дорогой и самый дешевый курс при помощи filter 
+и вывод информации о нем в консоль.
