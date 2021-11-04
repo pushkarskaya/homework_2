@@ -1,7 +1,6 @@
 package demo.steps;
 
 import demo.WebDriverFactory;
-import demo.Test;
 import demo.WebDriverName;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,7 +10,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,18 +20,17 @@ import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class SearchCourseAfterDate {
-    Logger logger = LogManager.getLogger(Test.class);
+    private static Logger logger = LogManager.getLogger(SearchCourseAfterDate.class);
     List<Date> dd = new ArrayList<>();
     private WebDriver wd;
     private final static By catalogOfCourse = By.cssSelector("a[title='Каталог курсов']");
-
+    private final static By courses =By.cssSelector(".lessons__new-item-start");
     @Given("We have afterdate {string}")
     public void weHaveAfterdate(String date) {
         List<String> browserOptions = new ArrayList();
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
         wd = WebDriverFactory.createNewDriver(WebDriverName.CHROME, browserOptions);
-        Logger logger = LogManager.getLogger(Test.class);
         String url = "https://otus.ru";
         wd.get(url);
         wd.findElement(catalogOfCourse).click();
@@ -42,7 +39,7 @@ public class SearchCourseAfterDate {
     @When("Search course after date {string}")
     public void searchCourseAfterDate(String data) throws ParseException {
         DateFormat date = new SimpleDateFormat("dd MMMM yyyy", new Locale("ru"));
-        List<Date> dates = wd.findElements(By.cssSelector(".lessons__new-item-start"))
+        List<Date> dates = wd.findElements(courses)
                 .stream()
                 .filter(webElement -> {
                     String text = webElement.getText();

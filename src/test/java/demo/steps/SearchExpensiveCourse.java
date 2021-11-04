@@ -1,7 +1,6 @@
 package demo.steps;
 
 import demo.WebDriverFactory;
-import demo.Test;
 import demo.WebDriverName;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -18,27 +17,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SearchExpensiveCourse {
-    Logger logger = LogManager.getLogger(Test.class);
+    private final static By catalogOfCourse = By.xpath("//p[contains(text(),'Курсы')]");
+    private final static By trainingCourses = By.xpath("//a[@class='header2-menu__dropdown-link header2-menu__dropdown-link_no-wrap' and @title='Подготовительные курсы']");
+    private final static By viewCourses = By.xpath("//h1[contains(text(),'Онлайн-курсы для подготовки к поступлению на основные курсы')]");
+    private final static By priceCourse = By.xpath("//div[@class='lessons__new-item-price']");
+    private static Logger logger = LogManager.getLogger(SearchExpensiveCourse.class);
     private WebDriver wd;
     private String maxPrice;
     private String minPrice;
-    private final static  By catalogOfCourse = By.xpath("//p[contains(text(),'Курсы')]");
+
     @Given("View list of courses")
     public void viewListOfCourses() {
         List<String> browserOptions = new ArrayList();
         browserOptions.add("--incognito");
         browserOptions.add("--disable-notifications");
         wd = WebDriverFactory.createNewDriver(WebDriverName.CHROME, browserOptions);
-        Logger logger = LogManager.getLogger(Test.class);
         String url = "https://otus.ru";
         wd.get(url);
         wd.findElement(catalogOfCourse).click();
-        By trainingCourses = By.xpath("//a[@class='header2-menu__dropdown-link header2-menu__dropdown-link_no-wrap' and @title='Подготовительные курсы']");
         Actions action = new Actions(wd);
         action.moveToElement(wd.findElement(catalogOfCourse)).click();
         action.moveToElement(wd.findElement(trainingCourses)).build().perform();
         wd.findElement(trainingCourses).click();
-        By viewCourses = By.xpath("//h1[contains(text(),'Онлайн-курсы для подготовки к поступлению на основные курсы')]");
         Assert.assertEquals("Онлайн-курсы для подготовки к поступлению на основные курсы", wd.findElement(viewCourses).getText());
 
     }
@@ -46,9 +46,6 @@ public class SearchExpensiveCourse {
 
     @When("Search the most expensive course")
     public void searchTheMostExpensiveCourse() {
-
-        By priceCourse = By.xpath("//div[@class='lessons__new-item-price']");
-        Logger logger = LogManager.getLogger(Test.class);
         List<WebElement> priceList = wd.findElements(priceCourse).stream().toList();
         List<String> price = priceList.stream().map(element -> element.getText()).sorted((a, b) -> {
             int valueA = Integer.valueOf(a.replaceAll("\\s", "").replaceAll("₽", ""));
